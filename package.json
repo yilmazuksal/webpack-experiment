@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode development",
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,10 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
     "@types/html-webpack-plugin": "^3.2.3",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
